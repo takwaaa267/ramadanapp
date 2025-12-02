@@ -5,6 +5,7 @@ import { HelloWave } from '@/components/hello-wave';
 import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
+import { Text } from '@react-navigation/elements';
 import { Link } from 'expo-router';
 
 export default function HomeScreen() {
@@ -19,6 +20,7 @@ export default function HomeScreen() {
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Hello World.</ThemedText>
+        <Text>Voici ma deuxième modification!</Text>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
